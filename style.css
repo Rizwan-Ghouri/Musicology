@@ -420,11 +420,10 @@ a:hover {
   height: 30rem;
 }
 .Footer_content {
+  /* width: 100%; */
   display: flex;
 }
 .Footer_card1 {
-  width: 30%;
-  /* margin: 3px; */
   padding: 2rem;
 }
 .Footer_card2 {
@@ -432,9 +431,6 @@ a:hover {
   margin: 3px;
   padding: 2rem;
 }
-/* .Footer_img {
-  width: 60%;
-} */
 .Footer_heading {
   margin-bottom: 1rem;
   font-size: 1.5rem;
@@ -459,4 +455,8 @@ a {
 }
 .fa-brands {
   padding: 1rem;
+}
+.fa-brands:hover{
+  color: #ff7700;
+  transition: 2ms;
 }

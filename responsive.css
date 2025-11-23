@@ -162,10 +162,10 @@
     align-items: center;
   }
   .amez_heading {
-  font-size: 1.5rem;
-  padding: 0rem;
-  text-align: center;
-}
+    font-size: 1.5rem;
+    padding: 0rem;
+    text-align: center;
+  }
   .amez_image {
     width: 90%;
     margin: 2rem;
@@ -197,8 +197,66 @@
   .best_image {
     width: 90%;
     margin: 2rem;
-}
+  }
   .best_btn {
     width: 90%;
+  }
+  /* <!-- state Section --> */
+  .stat_sec {
+    width: 100%;
+    height: auto;
+    background-color: #242424;
+  }
+  .stat_count {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .stat_heading {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .stat_para {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  .stat_countcard {
+    width: 100%;
+    text-align: center;
+  }
+  .card_para {
+    font-size: medium;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+
+  /* footer */
+  .Footer_Sec {
+    height: auto;
+    background-color: #242424;
+    color: #ffffff;
+  }
+  .Footer {
+    height: auto;
+  }
+  .Footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Footer_card1 {
+    padding: 2rem;
+    border: 1px solid red;
+  }
+  .Footer_card2 {
+    width: 45%;
+    border: 1px solid red;
+  }
+  .Footer_list {
+    list-style: none;
+    gap: 2rem;
+    padding-left: 0.5rem;
   }
 }
