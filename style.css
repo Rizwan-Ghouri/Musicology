@@ -7,8 +7,7 @@
 }
 body {
   background-color: #ff7700;
-    overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 button:hover {
   background: #666666;
@@ -24,8 +23,6 @@ a:hover {
   background-image: url(images/1st.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* position: absolute; */
-  /* z-index: 2; */
 }
 .header {
   height: 5rem;
@@ -75,7 +72,7 @@ a:hover {
   font-family: monospace;
 }
 .header_regbtn {
-  width: 40%;
+  width: 60%;
   padding: 0.5rem;
   background-color: #ff7700;
   border: none;
@@ -193,17 +190,17 @@ a:hover {
 /* Amez section */
 
 .amzing_Sec {
-  height: 30rem;
+  /* height: 30rem; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .amez_image {
-  width: 50%;
+  width: 60%;
   height: 30rem;
 }
 .amez_content {
-  width: 50%;
+  width: 100%;
   height: 30rem;
   background-image: url(images/Shape.png);
   background-size: 100% 200%;
@@ -236,9 +233,14 @@ a:hover {
 
 .best_Sec {
   width: 100%;
+  height: 50rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.best_heading {
+  font-size: 1rem;
+  padding: 1rem;
 }
 .best_image {
   width: 60%;
@@ -365,8 +367,6 @@ a:hover {
   height: 20rem;
   background-image: url(images/Shape.pngn.png);
   background-size: contain;
-
-
 }
 .sub_content {
   display: flex;
@@ -426,13 +426,11 @@ a:hover {
   width: 30%;
   /* margin: 3px; */
   padding: 2rem;
-
 }
 .Footer_card2 {
   width: 15%;
   margin: 3px;
   padding: 2rem;
-
 }
 /* .Footer_img {
   width: 60%;
@@ -451,15 +449,14 @@ a:hover {
   gap: 5rem;
   padding-left: 1rem;
 }
-a{
+a {
   color: #fff;
   text-decoration: none;
-  padding: 0.5rem;  
+  padding: 0.5rem;
 }
-.icon{
+.icon {
   font-size: 2rem;
 }
-.fa-brands{
+.fa-brands {
   padding: 1rem;
 }
-
