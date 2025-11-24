@@ -190,7 +190,7 @@ a:hover {
 /* Amez section */
 
 .amzing_Sec {
-  /* height: 30rem; */
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,7 +233,6 @@ a:hover {
 
 .best_Sec {
   width: 100%;
-  height: 50rem;
   display: flex;
   justify-content: center;
   align-items: center;
