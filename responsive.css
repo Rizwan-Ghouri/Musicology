@@ -228,6 +228,23 @@
   text-align: center;
   padding: 0rem;
 }
+
+/* header  */
+.header_logo{
+  width: 50%;
+  padding: 0px 4rem;
+}
+.header_menu{
+  display: none;
+}
+.header_search{
+  width: 50%;
+  padding: 0px 4rem;
+
+}
+.img{
+  width: 80px;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -479,5 +496,8 @@
   width: 100%;
   text-align: center;
   padding: 0rem;
+}
+.header_menu{
+  display: none;
 }
 }
